@@ -7,8 +7,8 @@ export const projectsData: ProjectType[] = [
     description: '• Developed an AI-powered traffic congestion monitoring and prediction system using Azure Stream Analytics, Blob Storage, and ML pipelines.',
     technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'JWT'],
     image: 'https://images.pexels.com/photos/5926393/pexels-photo-5926393.jpeg?auto=compress&cs=tinysrgb&w=800',
-    githubLink: 'https://github.com/username/secure-chat',
-    demoLink: 'https://secure-chat-demo.netlify.app'
+    githubLink: 'https://github.com/username/secure-chat'
+    
   },
   {
     title: 'E-Commerce Platform',
@@ -16,8 +16,8 @@ export const projectsData: ProjectType[] = [
     description: 'Full-featured e-commerce platform with product management, shopping cart, and payment integration.',
     technologies: ['Next.js', 'Express', 'PostgreSQL', 'Stripe', 'AWS S3'],
     image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    githubLink: 'https://github.com/username/ecommerce-platform',
-    demoLink: 'https://ecommerce-demo.vercel.app'
+    githubLink: 'https://github.com/username/ecommerce-platform'
+    
   },
   {
     title: 'Healthify | UI/UX Design, Visual Content Creation ',
@@ -33,8 +33,8 @@ export const projectsData: ProjectType[] = [
     description: 'Architected a digital Revenue Register solution for the Airport Express Line, facilitating efficient aggregation and supervision of fare-related data per station and route. ',
     technologies: ['React', 'Redux', 'Firebase', 'CoinGecko API', 'D3.js'],
     image: 'https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg?auto=compress&cs=tinysrgb&w=800',
-    githubLink: 'https://github.com/username/crypto-tracker',
-    demoLink: 'https://crypto-portfolio-app.web.app'
+    githubLink: 'https://github.com/username/crypto-tracker'
+
   },
   {
     title: 'Smart Home Automation System',
@@ -50,7 +50,6 @@ export const projectsData: ProjectType[] = [
     description: 'Blockchain-based medical records system that securely stores and shares patient data between healthcare providers.',
     technologies: ['Solidity', 'React', 'Web3.js', 'IPFS', 'Express'],
     image: 'https://images.pexels.com/photos/48604/pexels-photo-48604.jpeg?auto=compress&cs=tinysrgb&w=800',
-    githubLink: 'https://github.com/username/mediblock',
-    demoLink: 'https://mediblock-demo.netlify.app'
+    githubLink: 'https://github.com/username/mediblock'
   }
 ];

@@ -39,10 +39,10 @@ export const achievementsData: AchievementsDataType = {
   ],
   awards: [
     {
-      name: 'Dean\'s List - Academic Excellence',
-      presenter: 'University of Technology',
-      date: '2022-2023',
-      description: 'Recognized for outstanding academic achievement with a GPA in the top 5% of the Computer Science department.'
+      name: "2nd Place - Football (KV Regionals)",
+      presenter: "Kendriya Vidyalaya Regional Sports Meet",
+      date: "2022-2023",
+      description: "Secured 2nd position in the regional-level football tournament representing Kendriya Vidyalaya."
     },
     {
       name: 'Best Technical Innovation Award',
@@ -72,7 +72,7 @@ export const achievementsData: AchievementsDataType = {
     },
     {
       title: 'Hackathon Mentor',
-      description: 'Served as a mentor at 5+ university hackathons, guiding student teams on technical challenges and project development.'
+      description: 'Served as a mentor at 3+ university hackathons, guiding student teams on technical challenges and project development.'
     }
   ]
 };

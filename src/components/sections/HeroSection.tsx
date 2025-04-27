@@ -44,7 +44,7 @@ const HeroSection: React.FC = () => {
               <span className="block">Hi, I'm </span>
               <span className="gradient-text">Ayush</span>
             </h1>
-            
+
             <div className="text-xl md:text-2xl text-gray-300 font-medium h-16 mb-6">
               <TypeAnimation
                 sequence={[
@@ -60,11 +60,11 @@ const HeroSection: React.FC = () => {
                 repeat={Infinity}
               />
             </div>
-            
+
             <p className="text-gray-400 text-lg max-w-lg mb-8">
               Passionate about creating secure, performant web experiences and solving complex problems through elegant code solutions.
             </p>
-            
+
             <div className="flex flex-wrap gap-4">
               <motion.a
                 href="#projects"
@@ -75,21 +75,22 @@ const HeroSection: React.FC = () => {
                 View My Work
                 <ArrowRight size={18} />
               </motion.a>
-              
+
               <motion.a
-                href="/resume.pdf"
+                href="https://drive.google.com/file/d/1kGJzFR8SWfgaB6jP4ins17HaSEHywBiq/view?usp=sharing"
                 className="btn-outline"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                download
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Download CV
                 <Download size={18} />
               </motion.a>
-              
+
               <div className="flex gap-3 mt-2">
                 <motion.a
-                  href="https://github.com/username"
+                  href="https://github.com/Ayush2412Tiwari"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 rounded-full bg-dark-300 text-gray-400 hover:text-white hover:bg-primary-500 transition-colors"
@@ -99,7 +100,7 @@ const HeroSection: React.FC = () => {
                 >
                   <Github size={20} />
                 </motion.a>
-                
+
                 <motion.a
                   href="https://linkedin.com/in/ayush2412"
                   target="_blank"
@@ -114,7 +115,7 @@ const HeroSection: React.FC = () => {
               </div>
             </div>
           </motion.div>
-          
+
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -125,19 +126,19 @@ const HeroSection: React.FC = () => {
               {/* Profile image with glow effect */}
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary-500 shadow-neon relative">
                 <img
-                  src="https://media.licdn.com/dms/image/v2/D5603AQHbJ_OCWU3NRA/profile-displayphoto-shrink_400_400/B56ZS9SwV9HQAk-/0/1738342603700?e=1750896000&v=beta&t=IQNX3uMk3ny8OHsENA2Y82Mu12GE_n0qEOIjVRCBT0w"
+                  src="Portfolio\WhatsApp Image 2025-04-25 at 15.21.42_1ac0c058.jpg"
                   alt="Ayush"
                   className="w-full h-full object-cover"
                 />
               </div>
-              
+
               {/* Decorative elements */}
               <div className="absolute -top-3 -right-3 w-16 h-16 rounded-full bg-secondary-500/30 backdrop-blur-sm"></div>
               <div className="absolute -bottom-5 -left-5 w-20 h-20 rounded-full bg-accent-500/20 backdrop-blur-sm"></div>
             </div>
           </motion.div>
         </div>
-        
+
         {/* Scroll down indicator */}
         <motion.div
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"

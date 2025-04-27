@@ -25,7 +25,7 @@ const ProjectsSection: React.FC = () => {
           <h2 className="section-title mx-auto">Projects</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             A collection of projects showcasing my skills and experience in web development, 
-            cybersecurity, and software engineering.
+            cloud security, and software engineering.
           </p>
         </motion.div>
 

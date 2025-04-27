@@ -12,15 +12,17 @@ export const extracurricularData: ExtracurricularType[] = [
     ]
   },
   {
-    name: 'Mountain Trekking',
+    name: 'Playing Football',
     category: 'Sports',
-    description: 'Avid trekker who enjoys challenging mountain trails and exploring remote natural landscapes.',
+    description: 'Passionate football player with a love for team strategy, speed, and competitive matches. Enjoys training, participating in tournaments, and motivating teammates on and off the field.',
     achievements: [
-      'Completed the Himalayan Base Camp trek',
-      'Led a group of 10 beginners on a western ghats expedition',
-      'Certified in wilderness first aid'
+      'Secured 2nd place in KVS Regional Football Tournament',
+      'Vice-Captain of the school football team',
+      'Participated in inter-school and district-level football matches',
+      'Organized practice sessions and mentored junior players',
+      'Awarded Best Midfielder in the annual school sports meet'
     ]
-  },
+  },  
   {
     name: 'Tech Literacy Volunteer',
     category: 'Volunteering',
