@@ -126,7 +126,7 @@ const HeroSection: React.FC = () => {
               {/* Profile image with glow effect */}
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary-500 shadow-neon relative">
                 <img
-                  src="https://ibb.co/TDMXTy0K"
+                  src="https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22profile.jpg%22%2C%22type%22%3A%22image%2Fjpeg%22%2C%22signedurl_expire%22%3A%222028-04-26T15%3A50%3A23.947Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F21ee26de50264017%2Fprofile.jpg%3FExpires%3D1840377024%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DZoCv2ylR9CB3h3y-mOWETLm~f7HVAtSDg0VtsstyWyVk0TRrQJqeU29PjFkPlUBU7VfxzNXLNVoOjJNnvIb852TkVOBxnjymG2u~2JO0ur9bafnCcY48x-GNJqLLTBxcS5kWSHmt9qZNwGqgB5C8c4dUpsZoaDIujwE-lYRsqkAn7NnHx8VCJ8UllfQUDtd2~P0hxJFAt6EC-L2VTsGsbq5dUTWBocyEoxDVE2KUbI6nm7khz1v4NYkgmnRYt3byM4Y20mP32sq9ZGrcpyF8gWwau6tWhjF5bHk4DEyLaIlZ6NThW3uPAoN-FdiQYqa3Mlnb1UA~-HX5NWGofktRAA__%22%7D"
                   alt="Ayush"
                   className="w-full h-full object-cover"
                 />
