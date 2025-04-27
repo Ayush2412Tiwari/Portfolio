@@ -6,8 +6,8 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: <Github size={20} />, href: 'https://github.com/username', label: 'GitHub' },
-    { icon: <Linkedin size={20} />, href: 'https://linkedin.com/in/username', label: 'LinkedIn' },
+    { icon: <Github size={20} />, href: 'https://github.com/Ayush2412Tiwari', label: 'GitHub' },
+    { icon: <Linkedin size={20} />, href: 'https://linkedin.com/in/ayush2412', label: 'LinkedIn' },
     { icon: <Twitter size={20} />, href: 'https://twitter.com/username', label: 'Twitter' },
     { icon: <Mail size={20} />, href: 'mailto:contact@example.com', label: 'Email' },
   ];
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               <span className="text-white">/&gt;</span>
             </a>
             <p className="mt-4 text-gray-400 text-sm max-w-xs">
-              Computer Science Engineer, Web Developer, and Cyber Expert creating secure, performant web experiences.
+              Computer Science Engineer, Web Developer, and Cloud Engineer creating secure, performant web experiences.
             </p>
           </div>
 
