@@ -4,7 +4,7 @@ export const experienceData: ExperienceType[] = [
   {
     company: 'Delhi Metro Rail Corporation (DMRC)',
     role: 'Web Development Intern',
-    duration: 'June 2023 - Aug 2023',
+    duration: 'June 2024 - July 2024',
     location: 'New Delhi, India',
     responsibilities: [
       'Developed a web-based interface for accessing revenue registers of the Airport Express Line.',
