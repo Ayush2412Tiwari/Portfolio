@@ -41,19 +41,16 @@ export const achievementsData: AchievementsDataType = {
     {
       name: "2nd Place - Football (KV Regionals)",
       presenter: "Kendriya Vidyalaya Regional Sports Meet",
-      date: "2022-2023",
       description: "Secured 2nd position in the regional-level football tournament representing Kendriya Vidyalaya."
     },
     {
       name: 'Best Technical Innovation Award',
       presenter: 'National Engineering Symposium',
-      date: 'Nov 2022',
       description: 'Awarded for developing an innovative blockchain-based solution for supply chain transparency.'
     },
     {
       name: 'Google Code-In Finalist',
       presenter: 'Google',
-      date: 'Jan 2022',
       description: 'Selected as a regional finalist for contributions to open source projects during the Google Code-In competition.'
     }
   ],
