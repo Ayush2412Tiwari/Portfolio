@@ -6,7 +6,7 @@ import { projectsData } from '../../data/projectsData';
 
 const ProjectsSection: React.FC = () => {
   const [filter, setFilter] = useState('all');
-  
+
   // Filter projects based on selected category
   const filteredProjects = filter === 'all'
     ? projectsData
@@ -24,7 +24,7 @@ const ProjectsSection: React.FC = () => {
         >
           <h2 className="section-title mx-auto">Projects</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            A collection of projects showcasing my skills and experience in web development, 
+            A collection of projects showcasing my skills and experience in web development,
             cloud security, and software engineering.
           </p>
         </motion.div>
@@ -35,11 +35,10 @@ const ProjectsSection: React.FC = () => {
             <motion.button
               key={category}
               onClick={() => setFilter(category)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                filter === category
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${filter === category
                   ? 'bg-primary-500 text-white'
                   : 'bg-dark-300 text-gray-300 hover:bg-dark-200'
-              }`}
+                }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -64,7 +63,7 @@ const ProjectsSection: React.FC = () => {
           className="mt-12 text-center"
         >
           <a
-            href="https://github.com/username"
+            href="https://github.com/Ayush2412Tiwari"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-dark-300 hover:bg-dark-200 rounded-full transition-colors"
