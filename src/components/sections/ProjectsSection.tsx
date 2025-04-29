@@ -35,9 +35,10 @@ const ProjectsSection: React.FC = () => {
             <motion.button
               key={category}
               onClick={() => setFilter(category)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${filter === category
-                ? 'bg-primary-500 text-white'
-                : 'bg-dark-300 text-gray-300 hover:bg-dark-200'
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                filter === category
+                  ? 'bg-primary-500 text-white'
+                  : 'bg-dark-300 text-gray-300 hover:bg-dark-200'
                 }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
